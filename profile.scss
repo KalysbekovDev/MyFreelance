@@ -1,0 +1,247 @@
+.profile {
+  background: #EFEFEF;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &--title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+  }
+
+  &--block {
+    max-width: 330px;
+    padding: 10px 10px;
+    background: #F6F6F6;
+    border: 1px solid #C7C7C7;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 168px;
+      height: 162px;
+    }
+
+    h1 {
+      padding-top: 31px;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: center;
+      color: #000000;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center;
+      color: #000000;
+    }
+
+    &--rating {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      &--block {
+        width: 93px;
+        height: 85px;
+        margin: 10px;
+        padding: 0;
+        background: rgba(188, 229, 252, 0.47);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          font-weight: 600;
+          font-size: 12px;
+          text-align: center;
+          color: #000000;
+        }
+
+        h2 {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 22px;
+          text-align: center;
+          letter-spacing: -0.408px;
+          color: #000000;
+        }
+
+        ion-icon {
+          //color: red;
+        }
+
+        img {
+          width: 28px;
+          height: 21px;
+        }
+
+        .share {
+          width: 18px;
+          height: 30px;
+        }
+
+        &--stars {
+          display: flex;
+
+          &--left {
+            ion-icon {
+              color: #F1C644;
+            }
+          }
+        }
+      }
+    }
+
+    &--about {
+      padding: 0;
+      border-top: 1px solid #BFBFBF;
+      text-align: start;
+      align-items: start;
+
+      h1 {
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: -0.408px;
+        color: #000000;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 12px;
+        color: #000000;
+      }
+    }
+
+    &--reviews {
+      &--title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+          font-weight: 600;
+          font-size: 14px;
+          color: #000000;
+        }
+
+        a {
+          font-weight: 600;
+          font-size: 10px;
+          text-align: center;
+          color: rgba(0, 92, 145, 0.59);
+        }
+      }
+
+      &--block {
+        width: 297px;
+        height: 156px;
+        left: 50px;
+        top: 615px;
+        padding: 10px;
+        background: #E6E6E6;
+        border-radius: 10px;
+
+        &--top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          &--left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              width: 42px;
+              height: 38px;
+            }
+
+            &--txt {
+              padding: 0;
+              margin-bottom: 30px;
+              text-align: start;
+
+              h1 {
+                font-weight: 600;
+                font-size: 14px;
+                color: #000000;
+              }
+
+              p {
+                font-weight: 300;
+                font-size: 9px;
+                color: #000000;
+
+              }
+            }
+          }
+
+          &--right {
+            display: flex;
+
+            &--left {
+              color: #F1C644;;
+            }
+
+            &--right {
+              color: #D4D4D4;;
+            }
+          }
+        }
+
+        &--bottom {
+          p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            /* or 275% */
+
+            letter-spacing: -0.408px;
+
+            color: #000000;
+
+          }
+        }
+      }
+    }
+  }
+
+  &--button {
+    button {
+      padding: 12px 130px;
+      font-weight: 500;
+      font-size: 13.4815px;
+      line-height: 16px;
+      color: #FFFFFF;
+      background: #181717;
+      border-radius: 5.39259px;
+    }
+  }
+  &--navigations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 32px;
+    background: #F6F6F6;
+    border-radius: 16px;
+    width: 309px;
+    height: 43px;
+    left: 574px;
+    bottom: 25px;
+    font-size: 22px;
+    position: fixed;
+  }
+}
